@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		545900DE596446BBFFB6184C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5459008215A75CD807244502 /* UIKit.framework */; };
+		545901712ADFE892C03A02C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590CE3E99127375000F1D2 /* AppDelegate.m */; };
+		545901A8CBBED31CFBBE7A53 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 545909A13332932138831B04 /* InfoPlist.strings */; };
+		545902803060F5A7BDC057C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590F627A4AAAD2DABAD2D4 /* Foundation.framework */; };
+		545903045B322EFF73BDF4E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590A4411F3E34F60C57985 /* XCTest.framework */; };
+		5459052FD508D0301C1BDDAE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5459008215A75CD807244502 /* UIKit.framework */; };
+		5459072D660CF6CA35BA551A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590F627A4AAAD2DABAD2D4 /* Foundation.framework */; };
+		545909379DDF626C6A158D7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 54590E160D2833D040B440F0 /* InfoPlist.strings */; };
+		54590ABC507D1028C4F3C134 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54590241633B1CDDEAB1AA58 /* CoreGraphics.framework */; };
+		54590B7F0C4BC7C5377CC569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590D7275477C5135F602B5 /* main.m */; };
+		54590BD2E314E1FEFE1193B1 /* CatSpheroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590A3346E7FC5232745A99 /* CatSpheroTests.m */; };
+		54590C74FA50C33E51F94E0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5459061E5120ED685CF93A2F /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5459085B0C2B5001CE2207A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 545906CA615B52F0A844D132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5459011445D6B11F207873AB;
+			remoteInfo = CatSphero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5459002F4E3058CAA6D33D9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5459008215A75CD807244502 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		54590241633B1CDDEAB1AA58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5459055333CFE8FEC7EFAE8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		545905D54D0CBAE23DDC1FD8 /* CatSphero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatSphero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5459060D5E3CBD6F0EEAD197 /* CatSpheroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CatSpheroTests-Info.plist"; sourceTree = "<group>"; };
+		5459061E5120ED685CF93A2F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images.xcassets; sourceTree = "<group>"; };
+		545906A5D88491090AEC50F5 /* CatSpheroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatSpheroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54590A3346E7FC5232745A99 /* CatSpheroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatSpheroTests.m; sourceTree = "<group>"; };
+		54590A4411F3E34F60C57985 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		54590BBDF4A59CEEB10BA484 /* CatSphero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "CatSphero-Info.plist"; sourceTree = "<group>"; };
+		54590CE3E99127375000F1D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54590D7275477C5135F602B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54590DDD69359FAB6ABD27CF /* CatSphero-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatSphero-Prefix.pch"; sourceTree = "<group>"; };
+		54590E8624C40690C4832B29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		54590F627A4AAAD2DABAD2D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54590350A1009F0B971350B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5459072D660CF6CA35BA551A /* Foundation.framework in Frameworks */,
+				54590ABC507D1028C4F3C134 /* CoreGraphics.framework in Frameworks */,
+				545900DE596446BBFFB6184C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5459041C56E3E038383F7818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545903045B322EFF73BDF4E1 /* XCTest.framework in Frameworks */,
+				545902803060F5A7BDC057C1 /* Foundation.framework in Frameworks */,
+				5459052FD508D0301C1BDDAE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5459008588FEADF8C597A82B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54590BBDF4A59CEEB10BA484 /* CatSphero-Info.plist */,
+				545909A13332932138831B04 /* InfoPlist.strings */,
+				54590D7275477C5135F602B5 /* main.m */,
+				54590DDD69359FAB6ABD27CF /* CatSphero-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		545901888BF35B36CE1A78ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5459060D5E3CBD6F0EEAD197 /* CatSpheroTests-Info.plist */,
+				54590E160D2833D040B440F0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		545906CB1C3BE3ED4279C74D /* CatSphero */ = {
+			isa = PBXGroup;
+			children = (
+				5459008588FEADF8C597A82B /* Supporting Files */,
+				5459055333CFE8FEC7EFAE8B /* AppDelegate.h */,
+				54590CE3E99127375000F1D2 /* AppDelegate.m */,
+				5459061E5120ED685CF93A2F /* Images.xcassets */,
+			);
+			path = CatSphero;
+			sourceTree = "<group>";
+		};
+		545907F8E7E8B6F9F5732A44 /* CatSpheroTests */ = {
+			isa = PBXGroup;
+			children = (
+				545901888BF35B36CE1A78ED /* Supporting Files */,
+				54590A3346E7FC5232745A99 /* CatSpheroTests.m */,
+			);
+			path = CatSpheroTests;
+			sourceTree = "<group>";
+		};
+		545908DE935FFE55D0690726 = {
+			isa = PBXGroup;
+			children = (
+				54590A6B7D8D4E38B8150271 /* Products */,
+				54590F64C349E1CB08CC92FE /* Frameworks */,
+				545906CB1C3BE3ED4279C74D /* CatSphero */,
+				545907F8E7E8B6F9F5732A44 /* CatSpheroTests */,
+			);
+			sourceTree = "<group>";
+		};
+		54590A6B7D8D4E38B8150271 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				545905D54D0CBAE23DDC1FD8 /* CatSphero.app */,
+				545906A5D88491090AEC50F5 /* CatSpheroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54590F64C349E1CB08CC92FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54590F627A4AAAD2DABAD2D4 /* Foundation.framework */,
+				54590241633B1CDDEAB1AA58 /* CoreGraphics.framework */,
+				5459008215A75CD807244502 /* UIKit.framework */,
+				54590A4411F3E34F60C57985 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5459011445D6B11F207873AB /* CatSphero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54590AE9A547DF788514C006 /* Build configuration list for PBXNativeTarget "CatSphero" */;
+			buildPhases = (
+				54590D60256D38B62D5EA509 /* Sources */,
+				54590350A1009F0B971350B0 /* Frameworks */,
+				54590543FFB8B3F09AA778F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatSphero;
+			productName = CatSphero;
+			productReference = 545905D54D0CBAE23DDC1FD8 /* CatSphero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54590216333F2BD190108576 /* CatSpheroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5459039CFB8CE08D5B3C828D /* Build configuration list for PBXNativeTarget "CatSpheroTests" */;
+			buildPhases = (
+				5459059228BE13A1AC6DA985 /* Sources */,
+				5459041C56E3E038383F7818 /* Frameworks */,
+				54590E667CB60E4B5F0139CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54590871F5371BA65B78583A /* PBXTargetDependency */,
+			);
+			name = CatSpheroTests;
+			productName = CatSpheroTests;
+			productReference = 545906A5D88491090AEC50F5 /* CatSpheroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		545906CA615B52F0A844D132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Me;
+			};
+			buildConfigurationList = 545906950D3D108F50372CE1 /* Build configuration list for PBXProject "CatSphero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 545908DE935FFE55D0690726;
+			productRefGroup = 54590A6B7D8D4E38B8150271 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5459011445D6B11F207873AB /* CatSphero */,
+				54590216333F2BD190108576 /* CatSpheroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54590543FFB8B3F09AA778F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545901A8CBBED31CFBBE7A53 /* InfoPlist.strings in Resources */,
+				54590C74FA50C33E51F94E0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54590E667CB60E4B5F0139CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				545909379DDF626C6A158D7E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5459059228BE13A1AC6DA985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54590BD2E314E1FEFE1193B1 /* CatSpheroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54590D60256D38B62D5EA509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54590B7F0C4BC7C5377CC569 /* main.m in Sources */,
+				545901712ADFE892C03A02C2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54590871F5371BA65B78583A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5459011445D6B11F207873AB /* CatSphero */;
+			targetProxy = 5459085B0C2B5001CE2207A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		545909A13332932138831B04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5459002F4E3058CAA6D33D9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		54590E160D2833D040B440F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54590E8624C40690C4832B29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5459023150E971D36475F541 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		545905E57726880D690165CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatSphero/CatSphero-Prefix.pch";
+				INFOPLIST_FILE = "CatSphero/CatSphero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		54590605BA6A84F879F1D60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatSphero/CatSphero-Prefix.pch";
+				INFOPLIST_FILE = "CatSpheroTests/CatSpheroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		545907C45E3907853904376A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatSphero/CatSphero-Prefix.pch";
+				INFOPLIST_FILE = "CatSphero/CatSphero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5459085FCA0B78783D0F1DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54590F99E863558F99A3F373 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CatSphero/CatSphero-Prefix.pch";
+				INFOPLIST_FILE = "CatSpheroTests/CatSpheroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5459039CFB8CE08D5B3C828D /* Build configuration list for PBXNativeTarget "CatSpheroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54590605BA6A84F879F1D60E /* Release */,
+				54590F99E863558F99A3F373 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		545906950D3D108F50372CE1 /* Build configuration list for PBXProject "CatSphero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5459023150E971D36475F541 /* Release */,
+				5459085FCA0B78783D0F1DFD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54590AE9A547DF788514C006 /* Build configuration list for PBXNativeTarget "CatSphero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				545907C45E3907853904376A /* Release */,
+				545905E57726880D690165CB /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 545906CA615B52F0A844D132 /* Project object */;
+}
